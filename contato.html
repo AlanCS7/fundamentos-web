@@ -6,61 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <div class="container">
+        <div>
+            <img src="assets/img/logo-gen.png" alt="Logo da Generation Brasil">
+        </div>
+        <div>
+            <ul class="menu">
+                <li>
+                    <a href="index.html"><b>Home</b></a>
+                </li>
+                <li>
+                    <a href="contato.html"><b>Contato</b></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-    <img src="assets/img/logo-gen.png" alt="Logo da Generation Brasil">
 
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
+    <div class="center pd-15 ">
+        <h1 class="pl-15">Contato</h1>
+        <form>
 
-    <h1>Contato</h1>
+            <div class="pl-15">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
 
-    <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome">
+            </div>
 
-        <label for="sobrenome">Sobrenome:</label>
-        <input type="text" id="sobrenome">
-        <br><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email">
+                <label for="email">Confirme o Email:</label>
+                <input type="email" id="email">
+                <br><br>
+            </div>
+            <label for="organizacao">Nome da sua organização (opcional)</label><br>
+            <input type="text" id="organizacao">
+            <br><br>
+            <div class="center pd-15 ">
+            <label for="assunto">Mensagem:</label><br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+            <br><br>
 
-        <label for="email">Confirme o Email:</label>
-        <input type="email" id="email">
-        <br><br>
+            <label for="comosabe">Como você ficou sabendo da Generation?</label><br>
+            <input type="text" id="comosabe">
+            </div>
+            <button>Enviar</button>
 
-        <label for="organizacao">Nome da sua organização (opcional)</label><br>
-        <input type="text" id="organizacao">
-        <br><br>
-
-        <label for="assunto">Mensagem:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br><br>
-
-        <label for="comosabe">Como você ficou sabendo da Generation?</label><br>
-        <input type="text" id="comosabe">
-
-        <button>Enviar</button>
-
+        </form>
+    </div>
+    <div class="center pd-15">
         <h2>Endereço:</h2>
 
-        <p>Pinheiros</p>
-        <p>São Paulo - SP</p>
+        <p class="pd-15">Pinheiros</p>
+        <p class="pd-15">São Paulo - SP</p>
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29257.442688748994!2d-46.70595249399866!3d-23.561965831835273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5798cb16268f%3A0xa94014a3e39a3708!2sPinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1641832944454!5m2!1spt-BR!2sbr"
             width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-    </form>
+    </div>
+    <footer class="footer pd-15">
+        <p>
+            <b>Todos os direitos reservados: Alan Carlos &copy</b>
+        </p>
+    </footer>
 </body>
 
 </html>
