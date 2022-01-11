@@ -51,6 +51,7 @@ li {
         text-align: center;
         background-color: rgb(181, 255, 255);
         color: black;
+        padding-top: 50px;
 }
 
 .pd-15 {
@@ -76,4 +77,12 @@ li {
 
 .ml-50 {
     margin-left: 50px;
+}
+
+.label-p {
+    padding-bottom: 8px
+}
+
+.footer-p {
+    padding-top: 14px;
 }
