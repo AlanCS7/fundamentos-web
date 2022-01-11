@@ -66,3 +66,14 @@ li {
     margin-left: 200px;
     margin-right: 200px;
 }
+
+.container-2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
